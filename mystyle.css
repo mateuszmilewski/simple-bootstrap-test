@@ -1,0 +1,12 @@
+html {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: 0;
+    box-sizing: 0;
+}
+
+
+.jumbotron {
+    background-color: #2e2d88;
+    color: white;
+}

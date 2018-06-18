@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title>Bootstrap Tutorial</title>
+
+
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>Bootstrap tutorial</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Col 1</h3>
+                <span>Here's some text in this span from col 1.</span>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Col 2</h3>
+                <span>Here's some text in this span from col 2.</span>
+            </div>
+
+
+            <div class="clearfix visible-sm"></div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Col 3</h3>
+                <span>Here's some text in this span from col 3.</span>
+                <span>Here's some text in this span from col 3.</span>
+                <span>Here's some text in this span from col 3.</span>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h3>Col 4</h3>
+                <span>Here's some text in this span from col 4.</span>
+            </div>
+
+        </div>
+
+        <div class="row"><br><br><br><br><br><br></div>
+
+        <div class="row">
+
+
+
+
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                <h4>
+                    <a href="#col1Content" data-toggle="collapse">Column1</a>
+                </h4>
+            </div>
+
+            <div id="col1Content" class="collapse in">
+                Some extra text. But a little bit bigger with the content stuff.
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="well hidden-sm hidden-md hidden-lg">
+                <p>Screen &lt; 768px </p>
+            </div>
+
+            <div class="well hidden-sm hidden-md ">
+                <p>Screen &lt; 768px and lt; 992px </p>
+            </div>
+
+            <div class="well hidden-sm ">
+                <p>Screen &lt; 992px and &lt; 1200px</p>
+            </div>
+
+            <div class="well">
+                <p>Screen &lt; 1200px</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8"></div>
+
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <td colspan="3">Table</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Label 1</th>
+                        <th>Lalbel 2</th>
+                        <th>Label 3</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
